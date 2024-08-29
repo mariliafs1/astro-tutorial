@@ -79,7 +79,19 @@ html {
   a {
     color: #00539F;
   }
+  
+  html.dark {
+    background-color: #0d0950;
+    color: #fff;
+  }
+  
+  .dark .nav-links a {
+    color: #fff;
+  }
 
+  .dark a{
+    color: #ff9776
+  }
   
   @media screen and (min-width: 636px) {
     .nav-links {
